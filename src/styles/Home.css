@@ -1,0 +1,41 @@
+main{
+    margin: 10px;
+    padding: 10px;
+}
+
+#panel{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 colonnes égales */
+    /*grid-template-rows: repeat(2, auto);   */
+    gap: 20px;
+    padding: 5px;
+    margin-top: 4rem;
+}
+
+#panel div { 
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  /* Centre horizontalement */
+    align-items: flex-start;      /* Centre verticalement */
+    /* height: 300px; */
+    /* border: 1px solid #ddd;   Optionnel : ajouter une bordure pour voir les carrés */
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+
+#panel h2{
+    text-align: left; /* Aligner le titre à gauche */
+    margin-bottom: 10px;
+}
+
+#panel p {
+    text-align: left; /* Aligner les paragraphes à gauche */
+    margin-top: 10px;
+}
+
+#panel div img{
+    width: 100%;
+    height: auto;
+} 

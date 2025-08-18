@@ -1,0 +1,94 @@
+.profile {
+  display: inline-block;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.profile img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.profile p {
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  color:blue;
+}
+
+.infos-player{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img.flag{
+  width: 10%;
+  height: auto;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* espace entre les deux blocs */
+    align-items: flex-start;
+    flex-wrap: wrap; /* pour que ça s'adapte sur mobile */
+    margin: 20px;
+    gap: 20px;
+}
+
+#container .profile, #embauche .stats-player {
+    flex: 1;
+    min-width: 300px; /* pour éviter que ça devienne trop petit */
+}
+
+#container .profile{
+  max-width: 300px;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  align-items: flex-start;
+}
+
+.stats-player-season{
+  flex-direction: column;
+}
+
+nav{
+    display: flex;
+    justify-content:flex-start;
+}
+
+nav button {
+    text-decoration: none;  /* Retire le soulignement des liens */
+    color: inherit;         /* Optionnel : pour hériter de la couleur du texte parent */
+    padding: 10px 20px;       /* Ajuste la taille des boutons */
+    border: 1px solid #b2995a;  /* Bordure pour créer des rectangles */
+    background-color: #fff;   /* Couleur de fond des boutons */
+    border-radius: 5px;       /* Coins légèrement arrondis pour chaque bouton */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Ajoute une petite ombre pour l'effet bouton */
+    transition: background-color 0.3s ease; /* Transition pour effet au survol */
+    margin: 10px;
+    font-size: unset;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav button:hover {
+    text-decoration: underline; /* Optionnel : soulignement au survol si souhaité */
+}
+
+nav button:active{
+    background-color: blue;
+}

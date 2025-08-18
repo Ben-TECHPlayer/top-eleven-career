@@ -1,0 +1,20 @@
+main .main img, main .student img, main .gold img, main .tech img, main .store img{
+    width: 100px;
+    height: auto;
+    gap: 4rem;
+    object-fit: contain;
+}
+
+main .main, main .student, main .gold, main .tech, main .store{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+main h1{
+    margin-bottom: 3rem;
+}
+
+main h2{
+    margin-top: 3rem;
+}

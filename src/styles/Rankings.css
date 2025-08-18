@@ -1,0 +1,51 @@
+ .league, .ldc, .cup, .super-cup {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+} 
+
+.grille-palmares {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  padding: 1rem;
+}
+
+/* Sous-bloc gauche : image + nombre */
+.left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem; /* espace entre image et nombre */
+}
+
+.left-side img {
+  width: 100px; /* taille fixe plus claire */
+  height: auto;
+}
+
+.left-side .number h2 {
+  font-size: 6rem; /* ajusté pour correspondre à une taille raisonnable */
+  font-weight: 600;
+  margin: 0;
+  color: blue;
+  text-shadow: 1px 1px 2px blueviolet;
+}
+
+.right-side {
+  margin-left: 2rem;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text p{
+    margin: 0;
+    padding: 0;
+}

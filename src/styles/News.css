@@ -1,0 +1,78 @@
+main{
+    margin: 10px;
+    padding: 10px;
+}
+
+#mainPanel {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.mainPanel-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+#mainPanel div img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#mainPanel div { 
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: flex-start; /* Centre horizontalement */
+    align-items: flex-start;      /* Centre verticalement */
+    border-radius: 10px;
+}
+
+#mainPanel .quadruple-text{
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+}
+
+#panel{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 colonnes égales */
+    /*grid-template-rows: repeat(2, auto);   */
+    gap: 20px;
+    padding: 5px;
+}
+
+#panel div { 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  /* Centre horizontalement */
+    align-items: flex-start;      /* Centre verticalement */
+    border-radius: 10px;
+}
+
+#panel h2{
+    text-align: left; /* Aligner le titre à gauche */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 1rem;
+}
+
+#panel p {
+    text-align: left; /* Aligner les paragraphes à gauche */
+    margin-top: 10px;
+}
+
+#panel div img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+} 
+
+main .famous h2{
+    margin-top: 3rem;
+    margin-bottom: -1rem;
+}

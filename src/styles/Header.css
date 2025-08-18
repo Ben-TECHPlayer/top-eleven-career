@@ -1,0 +1,90 @@
+header h1, header h2{
+    color: #0add26;
+}
+
+header{
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    header h1{
+        margin-left: 8.4rem;
+        text-align: center;
+    }
+}
+
+img.logo {
+    width: 100px;
+    height: auto;
+}
+
+.menu img {
+    width: 30px;
+    height: 30px;
+}
+
+.menu-container {
+    position: absolute;
+    display: flex; /* Ajouté pour aligner le contenu horizontalement */
+    align-items: center; /* Alignement vertical pour centrer le logo et le bouton */
+    gap: 20px; /* Espacement entre le menu et le logo */
+}
+
+.menu {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 10px 15px;
+    border: 1px solid #b2995a;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-weight: bold;
+    float: left;
+    margin-left: 20px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease;
+    z-index: 999;
+    /* width: 200px; */
+}
+
+.dropdown-menu.open {
+    max-height: 500px; /* Ajuste selon le contenu */
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: contents;
+}
+
+.dropdown-menu li {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.dropdown-menu li:hover {
+    background-color: #b2995a;
+}

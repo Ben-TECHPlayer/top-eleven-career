@@ -1,0 +1,140 @@
+.matches-panel {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+}
+
+.matches-panel h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.match-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.team img {
+  width: 40px;
+  height: 40px;
+}
+
+.team span {
+  font-weight: bold;
+}
+
+.vs {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.match-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+nav{
+    display: flex;
+    justify-content:flex-start;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+li{
+    margin: 5px; 
+    text-align: center;
+}
+
+/* nav li {
+    padding: 10px 20px;      
+    border: 1px solid #b2995a; 
+    background-color: #fff; 
+    border-radius: 5px;   
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease; 
+} */
+
+nav button {
+    text-decoration: none;  /* Retire le soulignement des liens */
+    color: inherit;         /* Optionnel : pour hériter de la couleur du texte parent */
+    padding: 10px 20px;       /* Ajuste la taille des boutons */
+    border: 1px solid #b2995a;  /* Bordure pour créer des rectangles */
+    background-color: #fff;   /* Couleur de fond des boutons */
+    border-radius: 5px;       /* Coins légèrement arrondis pour chaque bouton */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Ajoute une petite ombre pour l'effet bouton */
+    transition: background-color 0.3s ease; /* Transition pour effet au survol */
+    margin: 10px;
+    font-size: unset;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav button:hover {
+    text-decoration: underline; /* Optionnel : soulignement au survol si souhaité */
+}
+
+nav button:active{
+    background-color: blue;
+}
+
+.cup-bracket {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.round {
+  flex: 0 0 auto;
+  min-width: 200px;
+}
+
+.round h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.matchup {
+  background: #111;
+  border: 1px solid #444;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.team {
+  font-size: 14px;
+  padding: 2px 0;
+}
+
+.team.winner {
+  font-weight: bold;
+  color: #0f0;
+}
+
+.score {
+  text-align: center;
+  font-weight: bold;
+  margin: 5px 0;
+}

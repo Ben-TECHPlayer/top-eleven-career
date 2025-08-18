@@ -1,0 +1,73 @@
+.player-card {
+  display: inline-block;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.player-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.player-card p {
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  color:blue;
+}
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        caption {
+            font-size: 1.8em;
+            font-weight: bold;
+            padding: 20px;
+            color: #0d47a1;
+            background-color: white;
+        }
+
+        thead {
+            background-color: #1976d2;
+            color: white;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: center;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f0f0f0;
+        }
+
+        tbody tr:hover {
+            background-color: #e3f2fd;
+        }
+
+        td:first-child {
+            font-weight: bold;
+            color: #0d47a1;
+        }
+
+        td:nth-child(2) {
+            text-align: left;
+            font-weight: 600;
+        }
+
+        tfoot {
+            background-color: #eeeeee;
+        }

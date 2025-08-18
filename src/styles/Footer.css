@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    flex-direction: column; /* Aligner le texte et les images verticalement */
+    align-items: center; /* Centrer le contenu */
+    padding: 10px;
+}
+
+footer h1 {
+    color: #0add26;
+    text-align: center;
+    margin-bottom: 20px; /* Ajoute de l'espace entre le texte et les images */
+}
+
+.partners-icons{
+    display: flex;
+    flex-wrap: wrap; /* Permet le retour à la ligne automatique */
+    justify-content: center; /* Centre les lignes horizontalement */
+    gap: 3rem; /* Espace horizontal et vertical entre les icônes */
+    padding: 20px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center; /* Centrer les icônes horizontalement */
+    gap: 30px; /* Espacement entre les icônes */
+}
+
+.contact-icons img{
+    width: 50px; /* Taille des images */
+    height: auto;
+    object-fit: contain;
+}
+
+.partners-icons img {
+    width: 100px; /* Taille des images */
+    height: auto;
+}
+/* 
+@media (max-width: 900px) {
+    .partners-icons {
+        display: inline-block;
+    }
+} */
