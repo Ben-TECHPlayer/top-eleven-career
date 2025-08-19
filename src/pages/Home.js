@@ -6,7 +6,7 @@ function Home() {
     <main>
       <div id="panel">
         <div className="quadruple">
-          <img src="{`${process.env.PUBLIC_URL}/assets/vivatech2024.jpg`} alt="Quadruple" />
+          <img src="/assets/vivatech2024.jpg" alt="Quadruple" />
           <h2>Quadruplé</h2>
         </div>
         <div className="supercup">
