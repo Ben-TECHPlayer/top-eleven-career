@@ -7,22 +7,22 @@ function Footer() {
         <h1>Partners</h1>
         <div className="partners-icons">
           {/* Ajoute ici toutes tes icônes de partenaires comme dans le HTML */}
-          <a href="https://realmadrid.com"><img src="/assets/realmadrid.png" alt="Real Madrid"/></a>
-          <a href="https://apple.com"><img src="/assets/apple.png" alt="Apple"/></a>
-          <a href="https://www.iut-orsay.universite-paris-saclay.fr"><img src="/assets/iut-orsay.png" alt="IUT"/></a>
-          <a href="https://universite-paris-saclay.fr"><img src="/assets/u-psud.png" alt="Paris-Saclay"/></a>
-          <a href="https://u-paris.fr"><img src="/assets/paris-cite.png" alt="Paris 16"/></a>
-          <a href="https://hp.com"><img src="/assets/hp.png" alt="HP"/></a>
-          <a href="https://playstation.com"><img src="/assets/ps5.png" alt="PS5"/></a>
-          <a href="https://epita.fr"><img src="/assets/epita.png" alt="EPITA"/></a>
-          <a href="https://quick.fr"><img src="/assets/quick.png" alt="Quick"/></a>
-          <a href="https://nike.com"><img src="/assets/nike.png" alt="Nike"/></a>
-          <a href="https://emirates.com"><img src="/assets/fly-emirates.png" alt="Fly Emirates"/></a>
-          <a href="https://axe.com"><img src="/assets/axe.png" alt="AXE"/></a>
-          <a href="https://mercedes.com"><img src="/assets/mercedes.png" alt="Mercedes"/></a>
-          <a href="https://samsung.com"><img src="/assets/Samsung-Galaxy-Logo.png" alt="Samsung Galaxy"/></a>
-          <a href="https://asus.com"><img src="/assets/asus.png" alt="ASUS"/></a>
-          <a href="https://vivatechnology.com"><img src="/assets/vivatech-logo.png" alt="VivaTech" /></a>
+          <a href="https://realmadrid.com"><img src={`${process.env.PUBLIC_URL}/assets/realmadrid.png`} alt="Real Madrid"/></a>
+          <a href="https://apple.com"><img src={`${process.env.PUBLIC_URL}/assets/apple.png`} alt="Apple"/></a>
+          <a href="https://www.iut-orsay.universite-paris-saclay.fr"><img src={`${process.env.PUBLIC_URL}/assets/iut-orsay.png`} alt="IUT"/></a>
+          <a href="https://universite-paris-saclay.fr"><img src={`${process.env.PUBLIC_URL}/assets/u-psud.png`} alt="Paris-Saclay"/></a>
+          <a href="https://u-paris.fr"><img src={`${process.env.PUBLIC_URL}/assets/paris-cite.png`} alt="Paris 16"/></a>
+          <a href="https://hp.com"><img src={`${process.env.PUBLIC_URL}/assets/hp.png`} alt="HP"/></a>
+          <a href="https://playstation.com"><img src={`${process.env.PUBLIC_URL}/assets/ps5.png`} alt="PS5"/></a>
+          <a href="https://epita.fr"><img src={`${process.env.PUBLIC_URL}/assets/epita.png`} alt="EPITA"/></a>
+          <a href="https://quick.fr"><img src={`${process.env.PUBLIC_URL}/assets/quick.png`} alt="Quick"/></a>
+          <a href="https://nike.com"><img src={`${process.env.PUBLIC_URL}/assets/nike.png`} alt="Nike"/></a>
+          <a href="https://emirates.com"><img src={`${process.env.PUBLIC_URL}/assets/fly-emirates.png`} alt="Fly Emirates"/></a>
+          <a href="https://axe.com"><img src={`${process.env.PUBLIC_URL}/assets/axe.png`} alt="AXE"/></a>
+          <a href="https://mercedes.com"><img src={`${process.env.PUBLIC_URL}/assets/mercedes.png`} alt="Mercedes"/></a>
+          <a href="https://samsung.com"><img src={`${process.env.PUBLIC_URL}/assets/Samsung-Galaxy-Logo.png`} alt="Samsung Galaxy"/></a>
+          <a href="https://asus.com"><img src={`${process.env.PUBLIC_URL}/assets/asus.png`} alt="ASUS"/></a>
+          <a href="https://vivatechnology.com"><img src={`${process.env.PUBLIC_URL}/assets/vivatech-logo.png`} alt="VivaTech" /></a>
         </div>
       </div>
       <div className="contacts">
