@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/top-eleven-career/static/css/main.11cb02e6.css",
-    "main.js": "/top-eleven-career/static/js/main.f375f011.js",
+    "main.js": "/top-eleven-career/static/js/main.52768184.js",
     "index.html": "/top-eleven-career/index.html",
     "main.11cb02e6.css.map": "/top-eleven-career/static/css/main.11cb02e6.css.map",
-    "main.f375f011.js.map": "/top-eleven-career/static/js/main.f375f011.js.map"
+    "main.52768184.js.map": "/top-eleven-career/static/js/main.52768184.js.map"
   },
   "entrypoints": [
     "static/css/main.11cb02e6.css",
-    "static/js/main.f375f011.js"
+    "static/js/main.52768184.js"
   ]
 }
